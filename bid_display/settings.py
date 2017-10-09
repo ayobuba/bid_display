@@ -25,7 +25,7 @@ SECRET_KEY = '_9mci!=)u0#x@1fbx6v6$p_h54#om@cwa*gp=6c*cp$w=$cy-^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.bidkings.ng','www.bidkings.com.ng','ayobuba.pythonanywhere.com','207.154.253.154','46.101.78.50','67.207.77.107','138.68.117.76']
+ALLOWED_HOSTS = ['www.bidkings.ng','www.bidkings.com.ng','ayobuba.pythonanywhere.com','128.199.247.113']
 
 
 # Application definition

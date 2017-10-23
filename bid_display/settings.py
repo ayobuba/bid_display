@@ -25,7 +25,7 @@ SECRET_KEY = '_9mci!=)u0#x@1fbx6v6$p_h54#om@cwa*gp=6c*cp$w=$cy-^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.bidkings.ng','www.bidkings.com.ng','ayobuba.pythonanywhere.com','128.199.247.113']
+ALLOWED_HOSTS = ['www.bidkings.ng','104.236.210.61']
 
 
 # Application definition
@@ -78,7 +78,11 @@ WSGI_APPLICATION = 'bid_display.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'django.db.backends.postgresql_psycopg2',
+        'USER': 'ayobuba',
+        'PASSWORD': 'Mylingen@79',
+        'HOST': 'localhost',
+        'PORT':'',
     }
 }
 

@@ -25,7 +25,7 @@ SECRET_KEY = '_9mci!=)u0#x@1fbx6v6$p_h54#om@cwa*gp=6c*cp$w=$cy-^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.bidkings.ng','104.236.210.61']
+ALLOWED_HOSTS = ['www.bidkings.ng','104.236.210.61','127.0.0.1']
 
 
 # Application definition
@@ -125,8 +125,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,"static")
-    ]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR,"static")
+#     ]
+
 STATIC_ROOT = os.path.join(BASE_DIR,'static/')
 
